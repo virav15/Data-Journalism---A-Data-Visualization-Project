@@ -1,0 +1,45 @@
+body{
+    font-family: 'Barlow Condensed' , sans-serif;
+    font-size: 20px;
+  }
+  
+  .header{
+    margin-top: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #f8af50;
+    color: rgb(150, 36, 7);
+    padding:20px;
+    padding-left: 60px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  .title{
+    margin-top: 20px;
+  }
+  
+  /* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    /* Padding bottom by footer height */
+    padding-bottom: 80px;
+  }
+  
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%; /* Set the fixed height of the footer here */
+    height: 10px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  #footer p {
+    margin: 0;
+    font-size: 16px;
+  }
